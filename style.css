@@ -58,4 +58,17 @@ body{
     color: #fff;
     font-size: 10em;
     z-index: 1;
+    font-weight: 600;
+}
+
+#road{
+    z-index: 2;
+}
+
+h2, p{
+    color: #fff;
+}
+
+p{
+text-align: justify;
 }
