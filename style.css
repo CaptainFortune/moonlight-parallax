@@ -72,3 +72,15 @@ h2, p{
 p{
 text-align: justify;
 }
+
+@media screen and (max-width: 1121px) {
+    #moon{
+        margin-right: 3rem;
+    }
+}
+@media screen and (max-width: 885px) {
+    #text{
+        margin-bottom: 11rem;
+        padding-left: 2.5rem;
+    }
+}
