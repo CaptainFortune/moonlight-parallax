@@ -6,3 +6,27 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body{
+    background: #210642;
+    min-height: 1500px;
+}
+
+.banner{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
